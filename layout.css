@@ -1,0 +1,58 @@
+div {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    overflow: hidden;
+}
+
+#topBar ul li {
+    display: inline;
+    float: right;
+    padding-left: 10px;
+}
+
+#menuBar ul li {
+    display: inline;
+    padding: 10px;
+    /* width: 100%; */
+    /* float: left; */
+}
+
+#content {
+    position: static;
+}
+
+.announcement {
+    position: relative;
+    left: 300px;
+    top: 150px;
+    background-color: black;
+    color: white;
+}
+
+
+#leftCol {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+#rightCol {
+    float: right;
+    width: 15%;
+    padding: 10px;
+}
+
+#rightCol ul {
+    list-style: none;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer div {
+    background-color: black;
+    color: white;
+}
